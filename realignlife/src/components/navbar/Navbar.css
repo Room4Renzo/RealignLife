@@ -1,0 +1,50 @@
+body {
+	background-image: url(../../images/Clouds.jpg);
+	background-size: cover;
+}
+
+nav {
+	background-color: #333;
+	padding: 10px;
+	position: relative;
+	z-index: 1;
+}
+
+ul {
+	list-style-type: none;
+	text-decoration: none !important;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+li {
+	margin-right: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-decoration: none !important;
+}
+
+/* Style the links */
+a {
+	text-decoration: none !important;
+	color: white;
+	padding: 5px 25px;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+
+/* Style the active link */
+a.active-link {
+	background-color: white;
+	text-decoration: none;
+}
+
+#Logo {
+	position: absolute;
+	left: 50px;
+	width: 25%;
+	background-color: lightblue;
+	border-radius: 130px;
+	z-index: 3;
+}
